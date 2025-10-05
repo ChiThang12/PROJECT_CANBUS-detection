@@ -1,0 +1,8 @@
+Feature Mapping for RTL:
+========================
+RTL mem_feature_idx [1:0] | Original Feature | Description
+---------------------------|------------------|------------------
+2'b00                      | 0x00             | Timestamp
+2'b01                      | 0x01             | Arbitration ID
+2'b10                      | 0x10             | Data Field
+2'b11                      | 0xFF (leaf)      | Leaf Node
